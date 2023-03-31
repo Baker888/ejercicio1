@@ -29,10 +29,14 @@
     overflow: hidden;
 }
 .argentina{
-    background-image: url("https://www.elgrafico.com.ar/media/cache/pub_news_details_large/media/i/53/fa/53facf1963a1053df0b35ebb8ce8a865706782d9.jfif");
+    background-image: linear-gradient(
+        rgba(174, 33, 221, 0.680),
+        rgba(174, 33, 221, 0.680)
+      ), url("https://www.elgrafico.com.ar/media/cache/pub_news_details_large/media/i/53/fa/53facf1963a1053df0b35ebb8ce8a865706782d9.jfif");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: violet;
 }
 
 
