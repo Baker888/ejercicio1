@@ -27,13 +27,14 @@ header {
     background-image: linear-gradient(90deg, #FC00FF 10%, #00DBDE 90%);
 }
 
-.backImg{
+.imgBack{
     position: relative;
     background-color: mediumorchid;
 }
 
 .imgColor{
     mix-blend-mode: multiply;
+    background-color: #FC00FF;
 }
 
 .imgIG {
