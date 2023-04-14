@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Tilt+Warp&display=swap&#39;');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+/*CONTENEDOR SCROLLBAR*/
+::-webkit-scrollbar {
+    height: 5px;
+    width: 2px;
+    border-radius: 5px;
+}
+
+/* FONDO BARRA SCROLL*/
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+
+}
+
+/* SELECTOR */
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 255, 170);;
+    border-radius: 5px;
+}
+
+/* SELECTOR hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(84, 171, 142);;
+}
+
+
+
+
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.tilt {
+    font-family: 'Tilt Warp', cursive;
+}
+
+.fw100 {
+    font-weight: 100;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+
+.portada {
+    position: relative;
+    height: 350px;
+    background-color: rgb(18, 131, 93);
+    background-image: url(../img/resto1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 7%;
+    box-shadow: inset 0 0 305px black;
+}
+
+.bienvenida {
+    position: absolute;
+    bottom: 70px;
+    line-height: 26pt;
+}
+
+.busqueda {
+    position: absolute;
+    bottom: -20px;
+    height: 60px;
+    width: 86%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 20px 20px -10px rgba(0, 0, 0, 0.339);
+    border-radius: 10px;
+}
+
+.busqueda .icono {
+    height: 100%;
+    width: 60px;
+    background-color: rgb(108, 217, 181);
+    text-align: center;
+    line-height: 60px;
+    font-size: 26pt!important;
+
+}
+
+.busqueda input[type="search"] {
+    height: 100%;
+    width: calc(100% - 120px);
+    border: 0;
+    font-size: 12pt;
+    padding: 14px;
+}
+
+.busqueda input[type="search"]:focus{
+    /* outline: solid 5px red; */
+    outline: none;
+    font-size: 14pt;
+}
+
+.busqueda input[type="search"]::placeholder {
+    color: rgba(112, 112, 112, 0.609);
+}
+
+.busqueda input[type="submit"] {
+    height: 60px;
+    width: 60px;
+    background-color: transparent;
+    border: 0;
+    font-size: 26pt!important;
+}
+.busqueda input[type="submit"]:active {
+box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.208);
+font-size: 22pt!important;
+}
+
+.categorias {
+    margin-top: 20px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.categorias ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+.categorias ul li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 0 0 120px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+
+.categorias ul li:not(:hover){
+    color: grey;
+    transform: scale(0.8);
+}
+
+.productos{
+    background-color: bisque;
+    padding: 10px;
+}
+
+.resto{
+    display: flex;
+    background-color: sienna;
+    height: 250px;
+    width: 100%;
+}
+
+.resto .imgresto{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+    background-image: url(../img/resto1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.resto .datosresto{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 60%;
+    background-color: lightsalmon;
+}
+
+.valoracion{
+    display: flex;
+    justify-content: space-between;
+}
